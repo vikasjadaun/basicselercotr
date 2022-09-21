@@ -1,0 +1,103 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+   <style>
+    /* all h1 insie.container */
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+
+    }
+    .container h1{
+   color: red;
+    }
+   </style>
+    <title>combination selector</title>
+</head>
+<body>
+    <div class="container">
+        0
+        <h1>1</h1>
+        <h1>2</h1>
+        <h2>3</h2>
+        <div>
+            4
+             <h1>5</h1>
+             <h2>6</h2>
+        </div>
+    </div>
+    <h1>7</h1>
+</body>
+</html> -->
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+   <style>
+    .container .a{
+        color: red;
+    }
+   </style>
+    <title>Document</title>
+</head>
+<body>
+    <div class="a">
+        <h1>0 </h1>
+    </div>
+    <div class="container">
+        <div class="a">
+            <h1>1</h1>
+            <h1>2</h1>
+            <h3>3</h3>
+            <h2>4</h2>
+        </div>
+        <div class="a">
+            5
+            <h1>6</h1>
+            <h1>7</h1>
+          
+        </div>
+    </div>
+    <div class="a">
+        <h1>8</h1>
+    </div>
+</body>
+</html> -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Direct Child Slelector -->
+  <style>
+    .a >h1{
+        color: red;
+    }
+  </style>
+    <title>html is a markup languge</title>
+</head>
+<body>
+    <div class="a">
+        <h1>0</h1>
+    </div>
+    <div class="container">
+        <h1>1</h1>
+        <div class="a">
+            <h1>2</h1>
+            <h1>3</h1>
+            <h1>4</h1>
+        </div>
+        <div class="a">
+            <h1>5</h1>
+            <h2>6</h2>
+            <h3>7</h3>
+        </div>
+        <div class="a">
+            <h1>9</h1>
+            <h2>12</h2>
+            <h1>21</h1>
+            <h3>22</h3>
+            <h1>21</h1>
+        </div>
+        <h1>10</h1>
+    </div>
+</body>
+</html>

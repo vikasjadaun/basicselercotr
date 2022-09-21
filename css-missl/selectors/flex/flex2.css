@@ -1,0 +1,30 @@
+
+
+.flex-container{
+    display: flex;
+}
+.flex-container div{
+    background-color: tomato;
+    border: 1px solid papayawhip;
+    padding: 10px;
+}
+@media only screen and (max-width:780px){
+    .flex-container{
+        flex-direction: column;
+    }
+    .flex-container div{
+        background-color: aqua;
+    }
+
+}
+
+@media only screen and (max-width:480px){
+    .flex-container{
+        flex-direction: column;
+    }
+    .flex-container div{
+        background-color: red;
+    }
+
+}
+
